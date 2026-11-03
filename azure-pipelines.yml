@@ -1,0 +1,11 @@
+trigger: none
+
+pool:
+  name: securebydesign
+
+steps:
+  - checkout: self
+  - task: dast-orchestrator-task@2
+    displayName: 'DAST with Managed Identity'
+    inputs:
+      SystemAccessToken: '$(System.AccessToken)'
