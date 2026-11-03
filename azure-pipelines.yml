@@ -1,7 +1,7 @@
 trigger: none
 
 pool:
-  name: securebydesign
+  vmImage: 'ubuntu-latest'
 
 steps:
   - checkout: self
