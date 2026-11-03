@@ -3,7 +3,7 @@ target:
   url: "https://invicti-demo-api-a052d7.azurewebsites.net"
   type: "api"
   api_spec_file: "openapi.json"
-  max_scan_time: 3600
+  max_scan_time: 0
 
   authentication.type: "managed_identity"
   managed_identity.resource: "api://f4f471f4-9aaf-4d7b-a344-d5e3a7aa8758"
